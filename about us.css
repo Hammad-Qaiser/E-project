@@ -1,0 +1,135 @@
+
+.mcontainer{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.55)),url(pexels-max-fischer-5212682.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.navb ul li{
+list-style: none;
+display: inline-block;
+position: relative;
+}
+.navb ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(78, 75, 75);
+   
+}
+
+.navb ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(88, 112, 177);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.navb ul li:hover::after{
+    width: 100%;
+}
+.log
+{
+    cursor: pointer;
+}
+.bannerbg{
+    background-image: url(pexels-max-fischer-5212682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    opacity:0.9;
+}
+.navopacity{
+    background-color: rgb(34, 77, 194);
+}
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fontS{
+    font-size: 72px;
+
+}
+.fontSu
+{
+    font-size: 60px;
+}
+.horiz{
+    width: 150px;
+    color: blue;
+    height: 5px;
+}
+.bgco{
+    background-color: rgb(34, 77, 194);
+}
+.heigh{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+a:hover{
+    color:rgb(34, 77, 194);
+}
+i{
+    padding: 5px;
+}
+.grow {
+    transition: 1s ease;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.shrink{
+transition: 1s ease;
+}
+.shrink:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.fa-solid .fa-minus line
+{
+    width: 100px;
+}
+.justif{
+    text-align:justify;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(191, 195, 206);
+    /* font-size: 2px; */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 3px 50px;
+    text-decoration: none;
+    display: block;
+}
+/* Show the dropdown when hovering over the "Services" item */
+.dropdown:hover .dropdown-content {
+    display: block;
+   
+}

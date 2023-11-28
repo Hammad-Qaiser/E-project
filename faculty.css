@@ -1,0 +1,234 @@
+.mcontainer{
+    width: 100%;
+    height: 100vh;
+    /* background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.55)),url(pexels-max-fischer-5212682.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.navb ul li{
+list-style: none;
+display: inline-block;
+position: relative;
+}
+.navb ul li a{
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(78, 75, 75);
+   
+}
+
+.navb ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: rgb(88, 112, 177);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.4s;
+}
+.navb ul li:hover::after{
+    width: 100%;
+}
+.log
+{
+    cursor: pointer;
+}
+.navopacity{
+    background-color: rgb(34, 77, 194);
+}
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.fontS{
+    font-size: 72px;
+
+}
+.horiz{
+    width: 150px;
+    color: blue;
+    height: 5px;
+}
+.bgco{
+    background-color: rgb(34, 77, 194);
+}
+.heigh{
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+
+.card-img-top{
+    width: 65%;
+    border-radius:80% ;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.2) ;
+    
+}
+.card{
+    padding: 1.5em .5em .5em;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(17, 17, 17, 0.2) ;
+    border-radius: 2em;
+    border-color: rgb(15, 15, 206);
+    background-color: rgb(190, 188, 184);
+
+}
+
+.card-title{
+ font-weight: bold;
+ font-size: 1.5em;
+}
+.btn-primary{
+    border-radius: 2em;
+    padding: .5em 1.5em ; 
+} 
+.shrink{
+    transition: 1s ease;
+    max-width: 490PX;
+    border-radius: 30px;
+    }
+    .shrink:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+    }
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.font{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:medium;
+}
+.shrink2{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink2:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink3{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink3:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink3{
+    max-width:500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink3:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink4{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink4:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink5{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink5:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink6{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink6:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink7{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink7:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink8{
+    width: 500px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink8:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.shrink9{
+    width: 450px;
+    transition: 1s ease;
+    border-radius: 30px;
+    }
+    .shrink9:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        transition: 1s ease;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(191, 195, 206);
+    /* font-size: 2px; */
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 3px 50px;
+    text-decoration: none;
+    display: block;
+}
+/* Show the dropdown when hovering over the "Services" item */
+.dropdown:hover .dropdown-content {
+    display: block;
+   
+}

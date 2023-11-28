@@ -1,0 +1,62 @@
+.bannerbg{
+    background-image: url(pexels-max-fischer-5212682.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    opacity:0.9;
+}
+.navopacity{
+    background-color: rgb(34, 77, 194);
+}
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(bgim.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.fontS{
+    font-size: 72px;
+
+}
+
+.bgco{
+    background-color: rgb(34, 77, 194);
+}
+.heigh{
+    height: 200px;
+}
+
+i{
+    padding: 5px;
+}
+.grow {
+    transition: 1s ease;
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+.shrink{
+transition: 1s ease;
+}
+.shrink:hover{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.fa-solid fa-minus line
+{
+    width: 100px;
+}
+.shado{
+    box-shadow: none;
+}
+.shado:hover{
+    box-shadow: 0 4px 8px 12px  rgb(34, 77, 194);
+}
